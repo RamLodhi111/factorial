@@ -1,8 +1,9 @@
 package factorial
 
 func CalculateFactorial(num int) int {
-
+	num++
 	if num == 1 || num == 0 {
+		
 		return num
 	}
 
