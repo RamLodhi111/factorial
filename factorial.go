@@ -5,7 +5,7 @@ import "fmt"
 func CalculateFactorial(num int) int {
 
 	//return 10
-	num++
+	//num++
 	if num == 1 || num == 0 {
 		fmt.Println("Base cond matched")
 		return num
